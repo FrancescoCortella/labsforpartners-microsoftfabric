@@ -23,7 +23,7 @@ In this file, you find a step-by-step guide to enable your Fabric environment.
    ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/cecf091a-1a36-4615-b443-2cbe6143617a)
 
   	and then:
-   ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/05afc426-3b3e-41df-81f8-fdec31797be5)
+  	![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/05afc426-3b3e-41df-81f8-fdec31797be5)
 
   	This is the compute that will allow you to create and use Fabric artifacts.
 
