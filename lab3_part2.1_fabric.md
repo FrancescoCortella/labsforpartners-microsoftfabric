@@ -12,3 +12,5 @@ In this part of the lab, you will make use of:
 1. The shortcut capability of Fabric to connect to the ADLS gen2
 2. PowerBI dashboard within Fabric leveraging direct-lake and v-order
 3. Data Activator to set up alerts when your data meets specific conditions
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/3f267f60-d97c-4970-8477-fce698bc3861)
