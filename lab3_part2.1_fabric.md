@@ -31,6 +31,7 @@ In this step, you create a Fabric workspace. The workspace contains all the item
 1.	In the Power BI service, select Workspaces from the left-hand menu.
 2.	To open your workspace, enter its name in the search textbox located at the top and select it from the search results.
 3.	From the experience switcher located at the bottom left, select Data Engineering.
+   
      ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/20fa7181-4e9e-4b66-856c-82a64096ed9c)
  
 4.	In the Data Engineering tab, select Lakehouse to create a lakehouse.
