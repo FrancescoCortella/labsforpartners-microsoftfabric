@@ -15,7 +15,7 @@ In this part of the lab, you will make use of:
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/3f267f60-d97c-4970-8477-fce698bc3861)
 
-## Create a workspace
+## **Create a workspace**
 In this step, you create a Fabric workspace. The workspace contains all the items needed for this lakehouse tutorial, which includes lakehouse, dataflows, Data Factory pipelines, the notebooks, Power BI semantic models, and reports.
 1.	Sign in to Power BI.
 2.	Select Workspaces and New workspace.
@@ -26,7 +26,7 @@ In this step, you create a Fabric workspace. The workspace contains all the item
     •	Description: Enter an optional description for your workspace.
    	![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/f80f4d1d-1a7d-435c-9f68-e40543326157)
 
-## Create a lakehouse
+## **Create a lakehouse**
 1.	In the Power BI service, select Workspaces from the left-hand menu.
 2.	To open your workspace, enter its name in the search textbox located at the top and select it from the search results.
 3.	From the experience switcher located at the bottom left, select Data Engineering.
@@ -39,7 +39,7 @@ In this step, you create a Fabric workspace. The workspace contains all the item
 6.	Select Create to create and open the new lakehouse.
 
 
-## Setting up a shortcut
+## **Setting up a shortcut**
 1.	To create a shortcut, open Lakehouse Explorer, click on the three dots next to Files and select New Shortcut.
    ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/af5c7703-bf1b-4b5e-81b4-cdc68b89d8db)
 
