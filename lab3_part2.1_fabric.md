@@ -122,3 +122,8 @@ After you add these relationships, your data model is ready for reporting as sho
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/5326090f-e8b0-4bc2-ba0a-9b7f47e36f1c)
 
+Select auto-create report
+
+<img width="187" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/c5ae4c17-3fac-45e3-b407-860fe70012b2">
+
+
