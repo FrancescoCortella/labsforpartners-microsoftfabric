@@ -62,3 +62,63 @@ In this step, you create a Fabric workspace. The workspace contains all the item
 
 
 **NOTE: Thanks to the shortcut, you are now able to view these tables without any data duplication. You can now use all the Fabric engines on top of the tables which are still stored only in the ADLS**.
+
+## **V-ORDER**
+
+
+
+## **Build a report**
+Power BI is natively integrated in the whole Fabric experience. This native integration brings a unique mode, called **DirectLake**, of accessing the data from the lakehouse to **provide the most performant query and reporting experience**. DirectLake mode is a groundbreaking new engine capability to analyze very large semantic models in Power BI. The technology is based on the idea of loading parquet-formatted files directly from a data lake without having to query a data warehouse or lakehouse endpoint, and without having to import or duplicate data into a Power BI semantic model. DirectLake is a fast path to load the data from the data lake straight into the Power BI engine, ready for analysis.
+
+In traditional DirectQuery mode, the Power BI engine directly queries the data from the source for each query execution, and the query performance depends on the data retrieval speed. DirectQuery eliminates the need to copy data, ensuring that any changes in the source are immediately reflected in query results. On the other hand, in the import mode, the performance is much better because the data is readily available in memory without having to query the data from the source for each query execution, however the Power BI engine must first copy the data into the memory at data refresh time. Any changes to the underlying data source are picked up during the next data refresh(in scheduled as well as on-demand refresh).
+
+DirectLake mode now eliminates this import requirement by loading the data files directly into memory. Because there's no explicit import process, it's possible to pick up any changes at the source as they occur, thus combining the advantages of DirectQuery and import mode while avoiding their disadvantages. DirectLake mode is therefore the ideal choice for analyzing very large semantic models and semantic models with frequent updates at the source.
+
+1. From your lakehouse, select SQL analytics endpoint from the Lakehouse drop-down menu at the top right of the screen.
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/cf30f4d3-d0d0-484c-a322-262f2c383d76)
+
+
+From the SQL endpoint pane, you should be able to see all the tables you created. If you don't see them yet, select the Refresh icon at the top. Next, select the Model tab at the bottom to open the default Power BI semantic model.
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/7458d5d6-0090-4eb4-9f5e-d5b085281284)
+
+
+For this data model, you need to define the relationship between different tables so that you can create reports and visualizations based on data coming across different tables. From the fact_sale table, drag the CityKey field and drop it on the CityKey field in the dimension_city table to create a relationship. The New relationship dialog box appears.
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/73827355-3783-43d1-9d66-69457720a536)
+
+
+In the New relationship dialog box:
+
+Table 1 is populated with fact_sale and the column of CityKey.
+
+Table 2 is populated with dimension_city and the column of CityKey.
+
+Cardinality: Many to one (*:1)
+
+Cross filter direction: Single
+
+Leave the box next to Make this relationship active selected.
+
+Select the box next to Assume referential integrity.
+
+Select OK.
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/c8344f44-83af-4ff5-bb15-f5fd0a99a2e3)
+
+
+ Note
+
+When defining relationships for this report, make sure you have a many to one relationship from the fact_sale table (Table 1) to the dimension_* tables (Table 2) and not vice versa.
+
+Next, add these relationships with the same New relationship settings as shown above but with the following tables and columns:
+
+StockItemKey(fact_sale) - StockItemKey(dimension_stock_item)
+Salespersonkey(fact_sale) - EmployeeKey(dimension_employee)
+CustomerKey(fact_sale) - CustomerKey(dimension_customer)
+InvoiceDateKey(fact_sale) - Date(dimension_date)
+After you add these relationships, your data model is ready for reporting as shown in the following image:
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/5326090f-e8b0-4bc2-ba0a-9b7f47e36f1c)
+
