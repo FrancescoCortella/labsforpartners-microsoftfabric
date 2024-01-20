@@ -39,7 +39,7 @@ In this step, you create a Fabric workspace. The workspace contains all the item
 
     ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/446cc383-ebdb-4437-9a74-720f0c6849f0)
 
-7.	Select Create to create and open the new lakehouse.
+6.	Select Create to create and open the new lakehouse.
 
 
 ## **Setting up a shortcut**
