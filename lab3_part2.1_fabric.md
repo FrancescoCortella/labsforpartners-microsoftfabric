@@ -17,11 +17,12 @@ In this part of the lab, you will make use of:
 
 ## **Create a workspace**
 In this step, you create a Fabric workspace. The workspace contains all the items needed for this lakehouse tutorial, which includes lakehouse, dataflows, Data Factory pipelines, the notebooks, Power BI semantic models, and reports.
-1.	Sign in to Power BI.
+1.	Sign in to Power BI  https://msit.powerbi.com/
 2.	Select Workspaces and New workspace.
-   ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/b6cf9bc6-a0a1-4137-a6a1-028c2c737651)
+
+  	![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/b6cf9bc6-a0a1-4137-a6a1-028c2c737651)
  
-3. 	Fill out the Create a workspace form with the following details:
+3. Fill out the Create a workspace form with the following details:
     •	Name: Enter **Fabric Databricks Lab**, and any extra characters to make the name unique.
     •	Description: Enter an optional description for your workspace.
    	![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/f80f4d1d-1a7d-435c-9f68-e40543326157)
