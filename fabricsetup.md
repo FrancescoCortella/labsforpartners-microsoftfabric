@@ -3,7 +3,8 @@
 In this file, you find a step-by-step guide to enable your Fabric environment.
 
 
-1. Go to https://cloudweeks.learnondemand.net/Class/583610. 
+1. Go to https://cloudweeks.learnondemand.net/Class/583610. Log in For Cloud Weeks Instructors or Lab Access using MS account or Corporate AAD.
+
 
 2.  Use the following training key to redeem your lab environment: A4F13EA3FA4F4EEB. **You are not allowed to share any key outside of the Databricks-Fabric Event**.
 
