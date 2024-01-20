@@ -51,5 +51,14 @@ In this step, you create a Fabric workspace. The workspace contains all the item
    ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/909f8196-7b5e-40eb-9119-4c12d7afad70)
 
 4.	Use gold_shortcut as shortcut Name and enter /gold-container in the Sub Path. **This is the ADLS container where your tables would land after Databricks ETL operations.**
+   
    ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/00fb8552-48a4-4485-916e-80dc621dc0c3)
 
+5. You should be able to see the parquet files in the Files section. Next step is **load them into new Tables.**
+
+6. If you completed all the steps correctly you should able to view the data you stored in the gold-container **under tables**:
+
+   <img width="173" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/51bd060c-c560-4760-883e-541cd8a2ecf1">
+
+
+**NOTE: Thanks to the shortcut, you are now able to view these tables without any data duplication. You can now use all the Fabric engines on top of the tables which are still stored only in the ADLS**.
