@@ -36,9 +36,10 @@ In this step, you create a Fabric workspace. The workspace contains all the item
  
 4.	In the Data Engineering tab, select Lakehouse to create a lakehouse.
 5.	In the New lakehouse dialog box, enter LH_gold in the Name field.
+
     ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/446cc383-ebdb-4437-9a74-720f0c6849f0)
 
-6.	Select Create to create and open the new lakehouse.
+7.	Select Create to create and open the new lakehouse.
 
 
 ## **Setting up a shortcut**
