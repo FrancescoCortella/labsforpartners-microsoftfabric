@@ -102,12 +102,12 @@ DirectLake mode now eliminates this import requirement by loading the data files
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/cf30f4d3-d0d0-484c-a322-262f2c383d76)
 
 
-From the SQL endpoint pane, you should be able to see all the tables you created. If you don't see them yet, select the Refresh icon at the top. Next, select the Model tab at the bottom to open the default Power BI semantic model.
+2. From the SQL endpoint pane, you should be able to see all the tables you created. If you don't see them yet, select the Refresh icon at the top. Next, select the Model tab at the bottom to open the default Power BI semantic model.
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/7458d5d6-0090-4eb4-9f5e-d5b085281284)
 
 
-For this data model, you need to define the relationship between different tables so that you can create reports and visualizations based on data coming across different tables. From the fact_sale table, drag the CityKey field and drop it on the CityKey field in the dimension_city table to create a relationship. The New relationship dialog box appears.
+3. For this data model, you need to define the relationship between different tables so that you can create reports and visualizations based on data coming across different tables. From the fact_sale table, drag the CityKey field and drop it on the CityKey field in the dimension_city table to create a relationship. The New relationship dialog box appears.
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/73827355-3783-43d1-9d66-69457720a536)
 
@@ -148,7 +148,7 @@ After you add these relationships, your data model is ready for reporting as sho
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/5326090f-e8b0-4bc2-ba0a-9b7f47e36f1c)
 
-Select New report to start creating reports/dashboards in Power BI. On the Power BI report canvas, you can create reports to meet your business requirements by dragging required columns from the Data pane to the canvas and using one or more of available visualizations.
+4. Select New report to start creating reports/dashboards in Power BI. On the Power BI report canvas, you can create reports to meet your business requirements by dragging required columns from the Data pane to the canvas and using one or more of available visualizations.
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/9e5b8369-f86f-4a46-a6b2-046a0be390c1)
 
@@ -158,7 +158,7 @@ In the Ribbon, select Text box.
 
 Type in KPIs dashboard.
 
-Build a column chart:
+5. Build a column chart:
 
 On the Visualizations pane, select the Stacked column chart visual.
 
@@ -169,11 +169,11 @@ On the Data pane, expand fact_sales and check the box next to Profit. This selec
 
 On the Data pane, expand dimension_employee and check the box next to Employee. This selection adds the field to the X-axis. 
 
-Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected. Enrich the dashboard with any other plot you have in mind.
+6. Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected. Enrich the dashboard with any other plot you have in mind.
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/ff9255d1-a564-412e-b256-f0a4d3cdb38c)
 
-From the ribbon, select File > Save.
+7. From the ribbon, select File > Save.
 
 Enter the name of your report as Summary Reporting.
 
