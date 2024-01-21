@@ -99,85 +99,85 @@ DirectLake mode now eliminates this import requirement by loading the data files
 
 1. From your lakehouse, select SQL analytics endpoint from the Lakehouse drop-down menu at the top right of the screen.
 
-![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/cf30f4d3-d0d0-484c-a322-262f2c383d76)
+  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/cf30f4d3-d0d0-484c-a322-262f2c383d76)
 
 
 2. From the SQL endpoint pane, you should be able to see all the tables you created. If you don't see them yet, select the Refresh icon at the top. Next, select the Model tab at the bottom to open the default Power BI semantic model.
 
-![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/7458d5d6-0090-4eb4-9f5e-d5b085281284)
+  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/7458d5d6-0090-4eb4-9f5e-d5b085281284)
 
 
 3. For this data model, you need to define the relationship between different tables so that you can create reports and visualizations based on data coming across different tables. From the fact_sale table, drag the CityKey field and drop it on the CityKey field in the dimension_city table to create a relationship. The New relationship dialog box appears.
 
-![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/73827355-3783-43d1-9d66-69457720a536)
-
-
-In the New relationship dialog box:
-
-Table 1 is populated with fact_sale and the column of CityKey.
-
-Table 2 is populated with dimension_city and the column of CityKey.
-
-Cardinality: Many to one (*:1)
-
-Cross filter direction: Single
-
-Leave the box next to Make this relationship active selected.
-
-Select the box next to Assume referential integrity.
-
-Select OK.
-
-![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/c8344f44-83af-4ff5-bb15-f5fd0a99a2e3)
-
-
-Note: When defining relationships for this report, make sure you have a many to one relationship from the fact_sale table (Table 1) to the dimension_* tables (Table 2) and not vice versa.
-
-Next, add these relationships with the same New relationship settings as shown above but with the following tables and columns:
-
-StockItemKey(fact_sale) - StockItemKey(dimension_stock_item)
-
-Salespersonkey(fact_sale) - EmployeeKey(dimension_employee)
-
-CustomerKey(fact_sale) - CustomerKey(dimension_customer)
-
-InvoiceDateKey(fact_sale) - Date(dimension_date)
-
-
-After you add these relationships, your data model is ready for reporting as shown in the following image:
-
-![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/5326090f-e8b0-4bc2-ba0a-9b7f47e36f1c)
+  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/73827355-3783-43d1-9d66-69457720a536)
+  
+  
+  In the New relationship dialog box:
+  
+  Table 1 is populated with fact_sale and the column of CityKey.
+  
+  Table 2 is populated with dimension_city and the column of CityKey.
+  
+  Cardinality: Many to one (*:1)
+  
+  Cross filter direction: Single
+  
+  Leave the box next to Make this relationship active selected.
+  
+  Select the box next to Assume referential integrity.
+  
+  Select OK.
+  
+  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/c8344f44-83af-4ff5-bb15-f5fd0a99a2e3)
+  
+  
+  Note: When defining relationships for this report, make sure you have a many to one relationship from the fact_sale table (Table 1) to the dimension_* tables (Table 2) and not vice versa.
+  
+  Next, add these relationships with the same New relationship settings as shown above but with the following tables and columns:
+  
+  StockItemKey(fact_sale) - StockItemKey(dimension_stock_item)
+  
+  Salespersonkey(fact_sale) - EmployeeKey(dimension_employee)
+  
+  CustomerKey(fact_sale) - CustomerKey(dimension_customer)
+  
+  InvoiceDateKey(fact_sale) - Date(dimension_date)
+  
+  
+  After you add these relationships, your data model is ready for reporting as shown in the following image:
+  
+  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/5326090f-e8b0-4bc2-ba0a-9b7f47e36f1c)
 
 4. Select New report to start creating reports/dashboards in Power BI. On the Power BI report canvas, you can create reports to meet your business requirements by dragging required columns from the Data pane to the canvas and using one or more of available visualizations.
-
-![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/9e5b8369-f86f-4a46-a6b2-046a0be390c1)
-
-Add a title:
-
-In the Ribbon, select Text box.
-
-Type in KPIs dashboard.
+  
+  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/9e5b8369-f86f-4a46-a6b2-046a0be390c1)
+  
+  Add a title:
+  
+  In the Ribbon, select Text box.
+  
+  Type in KPIs dashboard.
 
 5. Build a column chart:
 
-On the Visualizations pane, select the Stacked column chart visual.
+  On the Visualizations pane, select the Stacked column chart visual.
+  
+  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/66d97169-fe9d-4fc3-9f0b-f7806b9fa976)
+  
+  
+  On the Data pane, expand fact_sales and check the box next to Profit. This selection adds the field to the Y-axis.
+  
+  On the Data pane, expand dimension_employee and check the box next to Employee. This selection adds the field to the X-axis. 
+  
+  6. Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected. Enrich the dashboard with any other plot you have in mind.
 
-![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/66d97169-fe9d-4fc3-9f0b-f7806b9fa976)
-
-
-On the Data pane, expand fact_sales and check the box next to Profit. This selection adds the field to the Y-axis.
-
-On the Data pane, expand dimension_employee and check the box next to Employee. This selection adds the field to the X-axis. 
-
-6. Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected. Enrich the dashboard with any other plot you have in mind.
-
-![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/ff9255d1-a564-412e-b256-f0a4d3cdb38c)
+  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/ff9255d1-a564-412e-b256-f0a4d3cdb38c)
 
 7. From the ribbon, select File > Save.
-
-Enter the name of your report as Summary Reporting.
-
-Select Save.
+  
+  Enter the name of your report as Summary Reporting.
+  
+  Select Save.
 
 
 ## **Data Activator**
