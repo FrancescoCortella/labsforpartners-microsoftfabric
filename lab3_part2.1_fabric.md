@@ -186,14 +186,15 @@ Data Activator allows customers to build a digital nervous system that acts acro
 It is now time to make use of data activator to convert insights into actions. Click on the top right corner of your plot and select **create an alert**.
 <img width="669" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/270f912f-4398-4e50-8d5e-cf14101b9e30">
 
-You want to keep track of your employees KPIs, and more specifically, have insights of which employees are responsible for driving more profit for your company. In this scenario, you want to reward the teams that are driving more than 2bn in profit. Select sum of profit as measure, becomes greater than as condition, and 2,000,000,000 as threshold. Name this item as **sales employee award**, keep start my alert box thicked and hit Create.
+In this scenario, you want to keep track of your employees KPIs, and more specifically, have insights on which employees are responsible for driving more profit for your company. In this context, we want to reward the salespeople that are driving more than 2bn. Select sum of profit as measure, becomes greater than as condition, and 2,000,000,000 as threshold. Name this item as **sales employee award**, keep start my alert box thicked and hit Create.
 
 <img width="251" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/60727cf7-f4ea-49d9-bf26-3e683f7f5313">
 
 After few minutes, you will find in your email box the alerts triggered by data activator:
+
 <img width="239" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/4f7a4b2f-e4ca-46a6-b9bd-60be6973fcd2">
 
-The emails, will contain the name of the employee that won the sales award by beating the threshold (see example below):
+The emails will contain the name of the employee that won the sales award by beating the threshold (see example below):
 
 <img width="435" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/29fab47a-eca6-4a7c-a942-a9386f1be13f">
 
