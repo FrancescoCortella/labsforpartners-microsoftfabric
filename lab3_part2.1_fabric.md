@@ -65,7 +65,19 @@ In this step, you create a Fabric workspace. The workspace contains all the item
 
 ## **V-ORDER**
 
+**What is v-order?**
 
+V-Order is a write time optimization to the parquet file format that enables lightning-fast reads under the Microsoft Fabric compute engines, such as Power BI, SQL, Spark and others.
+
+Power BI and SQL engines make use of Microsoft Verti-Scan technology and V-Ordered parquet files to achieve in-memory like data access times. Spark and other non-Verti-Scan compute engines also benefit from the V-Ordered files with an average of 10% faster read times, with some scenarios up to 50%.
+
+V-Order works by applying special sorting, row group distribution, dictionary encoding and compression on parquet files, thus requiring less network, disk, and CPU resources in compute engines to read it, providing cost efficiency and performance. V-Order sorting has a 15% impact on average write times but provides up to 50% more compression.
+
+It's 100% open-source parquet format compliant; all parquet engines can read it as a regular parquet files. Delta tables are more efficient than ever; features such as Z-Order are compatible with V-Order. Table properties and optimization commands can be used on control V-Order on its partitions.
+
+V-Order is applied at the parquet file level. Delta tables and its features, such as Z-Order, compaction, vacuum, time travel, etc. are orthogonal to V-Order, as such, are compatible and can be used together for extra benefits.
+
+**V-Order is enabled by default in Microsoft Fabric and in Apache Spark it's controlled by the following configurations**. You can open a notebook and assign 
 
 ## **Build a report**
 Power BI is natively integrated in the whole Fabric experience. This native integration brings a unique mode, called **DirectLake**, of accessing the data from the lakehouse to **provide the most performant query and reporting experience**. DirectLake mode is a groundbreaking new engine capability to analyze very large semantic models in Power BI. The technology is based on the idea of loading parquet-formatted files directly from a data lake without having to query a data warehouse or lakehouse endpoint, and without having to import or duplicate data into a Power BI semantic model. DirectLake is a fast path to load the data from the data lake straight into the Power BI engine, ready for analysis.
