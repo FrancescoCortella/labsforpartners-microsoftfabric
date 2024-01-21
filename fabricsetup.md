@@ -1,9 +1,9 @@
 # **Fabric environment set up**
 
-In this file, you find a step-by-step guide to enable your Fabric environment.
+In this file, you will find a step-by-step guide to enable your Fabric environment for today's training.
 
 
-1. Go to https://cloudweeks.learnondemand.net/Class/583610. Log in For Cloud Weeks Instructors or Lab Access using MS account or Corporate AAD.
+1. Go to https://cloudweeks.learnondemand.net/Class/583610. Log in For Cloud Weeks Instructors or Lab Access using an MS account or Corporate AAD.
 
 
 2.  Use the following training key to redeem your lab environment: A4F13EA3FA4F4EEB. **You are not allowed to share any key outside of the Databricks-Fabric Event**.
@@ -27,7 +27,7 @@ In this file, you find a step-by-step guide to enable your Fabric environment.
 
   	![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/05afc426-3b3e-41df-81f8-fdec31797be5)
 
-  	This is the compute that will allow you to create and use Fabric artifacts.
+  	This is the compute that will allow you to create and operate with Fabric artifacts.
 
   
 
