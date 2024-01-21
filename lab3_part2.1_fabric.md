@@ -6,7 +6,7 @@ Lab 3: 2.2 Databrics + PowerBI (ask Databricks team)
 
 # **LAB 3 part 2.1: Fabric & Databricks Better Together**
 
-In the previous section of the lab, you used Databricks to work on CDC and data quality of one dimension (customer). Let’s assume that you have followed the same process to build the other dimensions, which you have written in a gold layer in ADLS gen2, following the medallion framework.
+In the previous section of the lab, you used Databricks to work on CDC and data quality of one dimension (customer). Let’s assume that you have followed the same process to build the other dimensions (city, date, employee, stock item, and fact_sale), which you have written in a gold layer in ADLS gen2, following the medallion framework.
 
 In this part of the lab, you will make use of:
 1. The shortcut capability of Fabric to connect to the ADLS gen2
