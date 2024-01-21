@@ -177,7 +177,7 @@ Enter the name of your report as Summary Reporting.
 Select Save.
 
 
-**## Data Activator**
+## **Data Activator**
 
 Data Activator is a no-code experience in Microsoft Fabric for automatically taking actions when patterns or conditions are detected in changing data. It monitors data in Power BI reports and Eventstreams items, for when the data hits certain thresholds or matches other patterns. It then automatically takes appropriate action such as alerting users or kicking off Power Automate workflows.
 
