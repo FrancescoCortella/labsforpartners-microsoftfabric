@@ -77,7 +77,16 @@ It's 100% open-source parquet format compliant; all parquet engines can read it 
 
 V-Order is applied at the parquet file level. Delta tables and its features, such as Z-Order, compaction, vacuum, time travel, etc. are orthogonal to V-Order, as such, are compatible and can be used together for extra benefits.
 
-**V-Order is enabled by default in Microsoft Fabric and in Apache Spark it's controlled by the following configurations**. You can open a notebook and assign 
+**V-Order is enabled by default in Microsoft Fabric and in Apache Spark it's controlled by the following configurations**. You can open a notebook and test it by going back to your workspace. When there, create new and select Notebook.
+
+<img width="200" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/3b5d1480-1b0a-4a84-ad88-8439cd3c8833">
+
+Hit add lakehouse and follow the steps to link the notebook to LH_gold.
+<img width="202" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/d5c3b48a-de2d-4988-893c-31a43cad84f4">
+
+
+
+
 
 ## **Build a report**
 Power BI is natively integrated in the whole Fabric experience. This native integration brings a unique mode, called **DirectLake**, of accessing the data from the lakehouse to **provide the most performant query and reporting experience**. DirectLake mode is a groundbreaking new engine capability to analyze very large semantic models in Power BI. The technology is based on the idea of loading parquet-formatted files directly from a data lake without having to query a data warehouse or lakehouse endpoint, and without having to import or duplicate data into a Power BI semantic model. DirectLake is a fast path to load the data from the data lake straight into the Power BI engine, ready for analysis.
