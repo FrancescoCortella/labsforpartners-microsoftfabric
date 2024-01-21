@@ -1,4 +1,4 @@
-In the previous section of the lab, you used Databricks to work on CDC and data quality of one dimension (customer). The lab will now fork into two sections to showcase the following scenarios:
+In the previous section of the lab, you used Databricks to work on CDC and data quality, while running your ETL operations. The lab will now fork into two sections to showcase the following scenarios:
 
 Lab 3: 2.1 Databricks + Fabric (here)
 
