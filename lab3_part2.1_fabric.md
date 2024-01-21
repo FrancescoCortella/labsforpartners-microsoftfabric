@@ -139,6 +139,7 @@ StockItemKey(fact_sale) - StockItemKey(dimension_stock_item)
 Salespersonkey(fact_sale) - EmployeeKey(dimension_employee)
 CustomerKey(fact_sale) - CustomerKey(dimension_customer)
 InvoiceDateKey(fact_sale) - Date(dimension_date)
+
 After you add these relationships, your data model is ready for reporting as shown in the following image:
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/5326090f-e8b0-4bc2-ba0a-9b7f47e36f1c)
