@@ -108,9 +108,7 @@ Select OK.
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/c8344f44-83af-4ff5-bb15-f5fd0a99a2e3)
 
 
- Note
-
-When defining relationships for this report, make sure you have a many to one relationship from the fact_sale table (Table 1) to the dimension_* tables (Table 2) and not vice versa.
+Note: When defining relationships for this report, make sure you have a many to one relationship from the fact_sale table (Table 1) to the dimension_* tables (Table 2) and not vice versa.
 
 Next, add these relationships with the same New relationship settings as shown above but with the following tables and columns:
 
@@ -122,12 +120,55 @@ After you add these relationships, your data model is ready for reporting as sho
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/5326090f-e8b0-4bc2-ba0a-9b7f47e36f1c)
 
+Select New report to start creating reports/dashboards in Power BI. On the Power BI report canvas, you can create reports to meet your business requirements by dragging required columns from the Data pane to the canvas and using one or more of available visualizations.
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/9e5b8369-f86f-4a46-a6b2-046a0be390c1)
+
+Add a title:
+
+In the Ribbon, select Text box.
+
+Type in Employee KPIs dashboard.
+
+Build a column chart:
+
+On the Visualizations pane, select the Stacked column chart visual.
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/66d97169-fe9d-4fc3-9f0b-f7806b9fa976)
 
 
+On the Data pane, expand fact_sales and check the box next to Profit. This selection adds the field to the Y-axis.
+
+On the Data pane, expand dimension_employee and check the box next to Employee. This selection adds the field to the X-axis.
+
+![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/ff9255d1-a564-412e-b256-f0a4d3cdb38c)
+
+Enrich the dashboard with any plot you have in mind.
+
+Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected.
+
+From the ribbon, select File > Save.
+
+Enter the name of your report as Summary Reporting.
+
+Select Save.
+
+
+**## Data Activator**
+
+Data Activator is a no-code experience in Microsoft Fabric for automatically taking actions when patterns or conditions are detected in changing data. It monitors data in Power BI reports and Eventstreams items, for when the data hits certain thresholds or matches other patterns. It then automatically takes appropriate action such as alerting users or kicking off Power Automate workflows.
+
+Data Activator allows customers to build a digital nervous system that acts across all their data, at scale and in a timely manner. Business users can describe business conditions in a no-code experience to launch actions such as Email, Teams notifications, Power Automate flows and call into third party action systems. Business users can self-serve their needs and reduce their reliance on internal IT and/or developer teams, either of which is often costly and hinders agility. Customer organizations don’t need a developer team to manage and maintain custom in-house monitoring or alerting solutions.
+
+It is now time to make use of data activator to convert insights into actions. Click on the top right corner of your plot and select **create an alert**.
 <img width="669" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/270f912f-4398-4e50-8d5e-cf14101b9e30">
+
+You want to keep track of your employees KPIs, and more specifically, have insights of which employees are responsible for driving more profit for your company. In this scenario, you want to reward the teams that are driving more than 2bn in profit. Select sum of profit as measure, becomes greater than as condition, and 2,000,000,000 as threshold. Name this item as **sales employee award**, keep start my alert box thicked and hit Create.
 
 <img width="251" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/60727cf7-f4ea-49d9-bf26-3e683f7f5313">
 
-After few minutes, you will find in your email box the alerts triggered by data activator on to https://outlook.office.com/
+After few minutes, you will find in your email box the alerts triggered by data activator on to https://outlook.office.com/.
+
+
 
 
