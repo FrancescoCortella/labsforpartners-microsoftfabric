@@ -79,10 +79,10 @@ V-Order is applied at the parquet file level. Delta tables and its features, suc
 
 **V-Order is enabled by default in Microsoft Fabric and in Apache Spark it's controlled by the following configurations**. You can open a notebook and test it by going back to your workspace. When there, create new and select Notebook.
 
-<img width="200" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/3b5d1480-1b0a-4a84-ad88-8439cd3c8833">
+<img width="200" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/3b5d1480-1b0a-4a84-ad88-8439cd3c8833"><img width="202" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/d5c3b48a-de2d-4988-893c-31a43cad84f4">
 
 Hit add lakehouse and follow the steps to link the notebook to LH_gold.
-<img width="202" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/d5c3b48a-de2d-4988-893c-31a43cad84f4">
+
 
 Once the notebook is created, if you rund the following command spark.conf.get('spark.sql.parquet.vorder.enabled') , you will get back "true" as a proof that v-order is enabled.
 
