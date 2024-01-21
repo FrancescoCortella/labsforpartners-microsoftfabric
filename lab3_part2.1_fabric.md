@@ -162,13 +162,11 @@ On the Visualizations pane, select the Stacked column chart visual.
 
 On the Data pane, expand fact_sales and check the box next to Profit. This selection adds the field to the Y-axis.
 
-On the Data pane, expand dimension_employee and check the box next to Employee. This selection adds the field to the X-axis.
+On the Data pane, expand dimension_employee and check the box next to Employee. This selection adds the field to the X-axis. 
+
+Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected. Enrich the dashboard with any other plot you have in mind.
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/ff9255d1-a564-412e-b256-f0a4d3cdb38c)
-
-Enrich the dashboard with any plot you have in mind.
-
-Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected.
 
 From the ribbon, select File > Save.
 
