@@ -169,15 +169,12 @@ DirectLake mode now eliminates this import requirement by loading the data files
   
   On the Data pane, expand dimension_employee and check the box next to Employee. This selection adds the field to the X-axis. 
   
-  6. Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected. Enrich the dashboard with any other plot you have in mind.
-
-  ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/ff9255d1-a564-412e-b256-f0a4d3cdb38c)
+6. Click anywhere on the blank canvas (or press the Esc key) so the chart is no longer selected. Enrich the dashboard with any other plot you have in mind.
+     ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/ff9255d1-a564-412e-b256-f0a4d3cdb38c)
 
 7. From the ribbon, select File > Save.
-  
-  Enter the name of your report as Summary Reporting.
-  
-  Select Save.
+   Enter the name of your report as Summary Reporting.
+   Select Save.
 
 
 ## **Data Activator**
