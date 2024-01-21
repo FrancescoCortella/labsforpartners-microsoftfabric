@@ -136,9 +136,13 @@ Note: When defining relationships for this report, make sure you have a many to 
 Next, add these relationships with the same New relationship settings as shown above but with the following tables and columns:
 
 StockItemKey(fact_sale) - StockItemKey(dimension_stock_item)
+
 Salespersonkey(fact_sale) - EmployeeKey(dimension_employee)
+
 CustomerKey(fact_sale) - CustomerKey(dimension_customer)
+
 InvoiceDateKey(fact_sale) - Date(dimension_date)
+
 
 After you add these relationships, your data model is ready for reporting as shown in the following image:
 
