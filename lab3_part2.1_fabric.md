@@ -188,8 +188,23 @@ You want to keep track of your employees KPIs, and more specifically, have insig
 
 <img width="251" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/60727cf7-f4ea-49d9-bf26-3e683f7f5313">
 
-After few minutes, you will find in your email box the alerts triggered by data activator on to https://outlook.office.com/.
+After few minutes, you will find in your email box the alerts triggered by data activator:
+<img width="239" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/4f7a4b2f-e4ca-46a6-b9bd-60be6973fcd2">
 
+The emails, will contain the name of the employee that won the sales award by beating the threshold (see example below):
 
+<img width="435" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/29fab47a-eca6-4a7c-a942-a9386f1be13f">
 
+To edit your Reflex, you can go back to your workspace click on it. You will be able to add other triggers or change conditions.
 
+This is just a simple use-case, but many other scenarios could be implemented with Data Activator. Just to give you few examples:
+
+1. Run ads when same-store sales decline.
+2. Alert store managers to move food from failing grocery store freezers before it spoils.
+3. Retain customers who had a bad experience by tracking their journey through apps, websites etc.
+4. Help logistics companies find lost shipments proactively by starting an investigation workflow when package status isn’t updated for a certain length of time.
+5. Alert account teams when customers fall into arrears, with customized time or value limits per customer.
+6. Track data pipeline quality, either rerunning jobs or alerting when pipelines fail or anomalies are detected. (**this could be achieved if you shortcut the data quality table you created on the databricks lab on Fabric**).
+
+## Conclusion
+We hope you enjoyed the lab! Feel free to share any feedback or reach out for help with your customers: fcortella@microsoft.com
