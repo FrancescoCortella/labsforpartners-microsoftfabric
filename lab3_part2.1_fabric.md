@@ -1,8 +1,8 @@
 In the previous section of the lab, you used Databricks to work on CDC and data quality of one dimension (customer). The lab will now fork into two sections to showcase the following scenarios:
 
-2.1 Databricks + Fabric (here)
+Lab 3: 2.1 Databricks + Fabric (here)
 
-2.2 Databrics + PowerBI (ask Databricks team)
+Lab 3: 2.2 Databrics + PowerBI (ask Databricks team)
 
 # **LAB 3 part 2.1: Fabric & Databricks Better Together**
 
