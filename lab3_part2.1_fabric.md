@@ -122,8 +122,12 @@ After you add these relationships, your data model is ready for reporting as sho
 
 ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/5326090f-e8b0-4bc2-ba0a-9b7f47e36f1c)
 
-Select auto-create report
 
-<img width="187" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/c5ae4c17-3fac-45e3-b407-860fe70012b2">
+
+<img width="669" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/270f912f-4398-4e50-8d5e-cf14101b9e30">
+
+<img width="251" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/60727cf7-f4ea-49d9-bf26-3e683f7f5313">
+
+After few minutes, you will find in your email box the alerts triggered by data activator on to https://outlook.office.com/
 
 
