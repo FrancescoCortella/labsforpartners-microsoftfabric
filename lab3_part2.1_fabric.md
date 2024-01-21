@@ -35,7 +35,7 @@ In this step, you create a Fabric workspace. The workspace contains all the item
      ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/20fa7181-4e9e-4b66-856c-82a64096ed9c)
  
 4.	In the Data Engineering tab, select Lakehouse to create a lakehouse.
-5.	In the New lakehouse dialog box, enter LH_gold in the Name field.
+5.	In the New lakehouse dialog box, enter **LH_gold** in the Name field.
 
     ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/446cc383-ebdb-4437-9a74-720f0c6849f0)
 
@@ -46,8 +46,8 @@ In this step, you create a Fabric workspace. The workspace contains all the item
 1.	To create a shortcut, open Lakehouse Explorer, click on the three dots next to Files and select New Shortcut.
    ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/af5c7703-bf1b-4b5e-81b4-cdc68b89d8db)
 
-2.	Select Azure Data Lake Storage Gen2 on external source, and connect to the resource where you have written the gold layer. 
-3.	Complete URL with https://adlsmsdbpartners.dfs.core.windows.net/, and select Account Key as Authentication kind. The account key is the following string: eFvWqJCfctoJkSbqsfXYdggfkz/Lx+O8rcQqMPxnuBxdwy4pDJtIjzBx9pFVvTeIuCTn4Rg+5chj+AStkO4Gvg==
+2.	Select Azure Data Lake Storage Gen2 on external source, and connect to the resource where the gold layer is written. 
+3.	Complete URL with **https://adlsmsdbpartners.dfs.core.windows.net/**, and select **Account Key** as Authentication kind. The account key is the following string: **eFvWqJCfctoJkSbqsfXYdggfkz/Lx+O8rcQqMPxnuBxdwy4pDJtIjzBx9pFVvTeIuCTn4Rg+5chj+AStkO4Gvg==**
    ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/909f8196-7b5e-40eb-9119-4c12d7afad70)
 
 4.	Use gold_shortcut as shortcut Name and enter /gold-container in the Sub Path. **For the sake of the lab, we assume this is the ADLS container where your tables land after Databricks ETL operations.**
@@ -56,12 +56,12 @@ In this step, you create a Fabric workspace. The workspace contains all the item
 
 5. You should be able to see the parquet files in the Files section. Next step is **load them into new Tables.**
 
-6. If you completed all the steps correctly you should able to view the data you stored in the gold-container **under tables**:
+6. If you completed all the steps correctly you should able to view the data stored in the ADLS gold-container **under tables**:
 
    <img width="173" alt="image" src="https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/51bd060c-c560-4760-883e-541cd8a2ecf1">
 
 
-**NOTE: Thanks to the shortcut, you are now able to view these tables without any data duplication. You can now use all the Fabric engines on top of the tables which are still stored only in the ADLS**.
+**NOTE: Thanks to the shortcut, Fabric is now pointing to the root location where these tables are stored, without any data duplication. You can now use all the Fabric engines on top of the tables which are only stored in the ADLS, and not stored in the Fabric one-lake**.
 
 ## **V-ORDER**
 
