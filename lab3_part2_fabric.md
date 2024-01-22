@@ -1,10 +1,6 @@
-In the previous section of the lab, you used Databricks to work on CDC and data quality, while running your ETL operations. The lab will now fork into two sections to showcase the following scenarios:
+In the previous section of the lab, you used Databricks to work on CDC and data quality, while running your ETL operations. The lab will now continue on the Fabric side.
 
-Lab 3: 2.1 Databricks + Fabric (here)
-
-Lab 3: 2.2 Databrics + PowerBI (ask Databricks team)
-
-# **LAB 3 part 2.1: Fabric & Databricks Better Together**
+# **LAB 3 part 2: Fabric & Databricks Together**
 
 In the previous section of the lab, you used Databricks to work on CDC and data quality of one dimension (customer). Let’s assume that you have followed the same process to build the other dimensions (city, date, employee, stock item, and fact_sale), which you have written in a gold layer in ADLS gen2, following the medallion framework.
 
