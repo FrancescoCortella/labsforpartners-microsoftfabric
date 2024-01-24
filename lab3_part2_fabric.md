@@ -43,7 +43,7 @@ In this step, you create a Fabric workspace. The workspace contains all the item
    ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/af5c7703-bf1b-4b5e-81b4-cdc68b89d8db)
 
 2.	Select Azure Data Lake Storage Gen2 on external source, and connect to the resource where the gold layer is written. 
-3.	Complete URL with **https://adlsmsdbpartners.dfs.core.windows.net/**, and select **Account Key** as Authentication kind. The account key is the following string: **eFvWqJCfctoJkSbqsfXYdggfkz/Lx+O8rcQqMPxnuBxdwy4pDJtIjzBx9pFVvTeIuCTn4Rg+5chj+AStkO4Gvg==**
+3.	Complete URL with **XXXXXXXXXX**, and select **Account Key** as Authentication kind. The account key is the following string: **XXXXXXXXX**
    ![image](https://github.com/FrancescoCortella/labsforpartners-microsoftfabric/assets/135111177/909f8196-7b5e-40eb-9119-4c12d7afad70)
 
 4.	Use gold_shortcut as shortcut Name and enter /gold-container in the Sub Path. **For the sake of the lab, we assume this is the ADLS container where your tables land after Databricks ETL operations.**
